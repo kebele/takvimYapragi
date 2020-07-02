@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: url(person-holding-compass-841286.jpg) ; */
+    background-size: cover;
+    background-position: center;
+    background-color: #111;
+}
+
+.calendar {
+    position: relative;
+    width: 200px;
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.calendar #monthName {
+    position: relative;
+    padding: 5px 10 px;
+    background: salmon;
+    color : whitesmoke;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.calendar #dayName {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;    
+}
+.calendar #dayNumber {
+    margin-top: 0px;
+    line-height: 1em;;
+    font-size: 80px;
+    font-weight: 500;
+    color: #333;    
+}
+.calendar #year {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;    
+}
